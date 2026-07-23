@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8d8f0"/>
+      <stop offset="45%" stop-color="#c9e8f5"/>
+      <stop offset="75%" stop-color="#fde2e4"/>
+      <stop offset="100%" stop-color="#ffd3d8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d5" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#ffe9a8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfe3b0"/>
+      <stop offset="100%" stop-color="#a3d996"/>
+    </linearGradient>
+    <linearGradient id="hillNear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9ed98c"/>
+      <stop offset="100%" stop-color="#7fc76c"/>
+    </linearGradient>
+    <radialGradient id="blossomBall" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffd6e6"/>
+      <stop offset="100%" stop-color="#ffb3ce"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+
+  <!-- sun glow -->
+  <circle cx="1300" cy="180" r="260" fill="url(#sun)"/>
+  <circle cx="1300" cy="180" r="55" fill="#fff3c4"/>
+
+  <!-- fluffy clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="220" cy="140" rx="70" ry="26"/>
+    <ellipse cx="270" cy="130" rx="55" ry="22"/>
+    <ellipse cx="170" cy="130" rx="50" ry="20"/>
+
+    <ellipse cx="700" cy="90" rx="55" ry="20"/>
+    <ellipse cx="740" cy="82" rx="40" ry="16"/>
+    <ellipse cx="660" cy="82" rx="38" ry="16"/>
+  </g>
+
+  <!-- far hill -->
+  <path d="M0,620 Q220,540 460,610 T900,590 T1600,610 L1600,1000 L0,1000 Z" fill="url(#hillFar)"/>
+
+  <!-- distant blossom trees on far hill -->
+  <g opacity="0.9">
+    <circle cx="180" cy="560" r="34" fill="url(#blossomBall)"/>
+    <rect x="175" y="588" width="10" height="26" fill="#8a6552"/>
+    <circle cx="1440" cy="570" r="30" fill="url(#blossomBall)"/>
+    <rect x="1435" y="596" width="9" height="24" fill="#8a6552"/>
+  </g>
+
+  <!-- near hill -->
+  <path d="M0,760 Q300,680 620,750 T1600,730 L1600,1000 L0,1000 Z" fill="url(#hillNear)"/>
+
+  <!-- big cherry blossom tree, left -->
+  <g>
+    <path d="M150,1000 L165,780 Q150,760 130,740" stroke="#7a5a46" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M165,780 Q200,750 250,745" stroke="#7a5a46" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M160,800 Q110,770 70,760" stroke="#7a5a46" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="120" cy="700" r="95" fill="url(#blossomBall)"/>
+    <circle cx="220" cy="720" r="75" fill="url(#blossomBall)"/>
+    <circle cx="60" cy="730" r="65" fill="url(#blossomBall)"/>
+    <circle cx="150" cy="650" r="70" fill="#ffe1ec"/>
+  </g>
+
+  <!-- small blossom tree, right -->
+  <g>
+    <path d="M1470,1000 L1478,860 Q1465,845 1450,830" stroke="#8a6552" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="1460" cy="800" r="60" fill="url(#blossomBall)"/>
+    <circle cx="1510" cy="815" r="46" fill="url(#blossomBall)"/>
+    <circle cx="1425" cy="820" r="42" fill="#ffe1ec"/>
+  </g>
+
+  <!-- grass texture strokes -->
+  <g stroke="#5fae52" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <path d="M60,980 q4,-24 0,-40"/>
+    <path d="M100,990 q4,-22 0,-36"/>
+    <path d="M420,970 q4,-24 0,-40"/>
+    <path d="M470,985 q4,-20 0,-34"/>
+    <path d="M780,975 q4,-22 0,-38"/>
+    <path d="M900,965 q4,-24 0,-40"/>
+    <path d="M1200,980 q4,-22 0,-36"/>
+    <path d="M1350,970 q4,-24 0,-40"/>
+  </g>
+
+  <!-- little flowers dotted across the field -->
+  <g>
+    <g transform="translate(300,900)"><circle r="6" fill="#fff" /><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(340,930)"><circle r="6" fill="#ffe1ec"/><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(560,910)"><circle r="6" fill="#fff"/><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(650,950)"><circle r="6" fill="#ffe1ec"/><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(980,900)"><circle r="6" fill="#fff"/><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(1050,940)"><circle r="6" fill="#ffe1ec"/><circle r="2.4" fill="#ffd166"/></g>
+    <g transform="translate(1250,915)"><circle r="6" fill="#fff"/><circle r="2.4" fill="#ffd166"/></g>
+  </g>
+
+  <!-- drifting petals -->
+  <g fill="#ffc7dc" opacity="0.85">
+    <ellipse cx="400" cy="300" rx="7" ry="4" transform="rotate(30 400 300)"/>
+    <ellipse cx="600" cy="420" rx="6" ry="3.5" transform="rotate(-20 600 420)"/>
+    <ellipse cx="900" cy="250" rx="7" ry="4" transform="rotate(50 900 250)"/>
+    <ellipse cx="1100" cy="450" rx="6" ry="3.5" transform="rotate(-10 1100 450)"/>
+    <ellipse cx="250" cy="420" rx="6" ry="3.5" transform="rotate(15 250 420)"/>
+    <ellipse cx="1350" cy="350" rx="7" ry="4" transform="rotate(-35 1350 350)"/>
+  </g>
+
+  <!-- soft foreground vignette -->
+  <rect width="1600" height="1000" fill="#3a2a1a" opacity="0.04"/>
+</svg>
