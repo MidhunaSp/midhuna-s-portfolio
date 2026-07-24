@@ -6,7 +6,7 @@
 
 <br>
 
-**[🔗 View Live →](https://midhuna-s-portfolioo.vercel.app/)**
+**[🔗 View Live →](https://midhunasp.github.io/midhuna-s-portfolio/)**
 
 <br>
 
